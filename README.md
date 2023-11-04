@@ -6,7 +6,7 @@
 ![Versi](https://img.shields.io/badge/version-1.0--Stable.1-biru.svg?cacheSeconds=2592000)
 [![Twitter: ryosora12](https://img.shields.io/twitter/follow/ryosora12.svg?style=social)](https://twitter.com/dumps)
 
-> Program ini hanyalah hasil dari Kegabutan ku dikala sedang ada waktu luang dan tidak ada yang harus di kerjakan
+> Program ini hanyalah hasil dari Kegabutan ku saat sedang ada waktu luang dan tidak ada yang harus di kerjakan
 
 ## Feature
 
