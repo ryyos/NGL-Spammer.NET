@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections;
 using System.Net.Http;
 using System.Text;
@@ -8,10 +8,10 @@ class Program
 {
     static async Task Main()
     {
-        
+
         string url = "https://ngl.link/api/submit";
 
-        
+
         using (HttpClient client = new HttpClient())
         {
 
@@ -24,26 +24,26 @@ class Program
                 new KeyValuePair<string, string>("referrer", "")
             });
 
-            
 
-            for(int i = 1; i < 4; i++)
-            {
+
+
             HttpResponseMessage response = await client.PostAsync(url, formData);
-                
-                if (response.IsSuccessStatusCode)
-                {
-                    
-                    string responseContent = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine("Response: " + responseContent);
-                }
-                else
-                {
-                    Console.WriteLine("HTTP POST request gagal dengan kode status: " + response.StatusCode);
-                }
 
+            if (response.IsSuccessStatusCode)
+            {
+
+                string responseContent = await response.Content.ReadAsStringAsync();
+                Console.WriteLine("Response: " + responseContent);
             }
+            else
+            {
+                Console.WriteLine("HTTP POST request gagal dengan kode status: " + response.StatusCode);
+            }
+
+
 
 
         }
     }
 }
+*/

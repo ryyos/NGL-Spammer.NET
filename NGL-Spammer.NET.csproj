@@ -9,11 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="src\App\" />
-    <Folder Include="src\API\" />
-    <Folder Include="src\composer\" />
-    <Folder Include="src\components\" />
-    <Folder Include="src\service\" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>

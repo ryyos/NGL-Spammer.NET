@@ -9,27 +9,21 @@ namespace NGL_Spammer.NET.src.content
 {
     internal class Contents
     {
-        public String urlEncode(String username, List<String> questions, List<String> uuid)
+        public FormUrlEncodedContent urlEncode(String username, String questions, String uuid, String gameSlug)
         {
-            ArrayList urls = new ArrayList();
 
-        for(int i = 0; i <= questions.Count; i++)
-            {
+                FormUrlEncodedContent formData = new FormUrlEncodedContent(new[]
+                    {
+                        new KeyValuePair<string, string>("username", username),
+                        new KeyValuePair<string, string>("question", questions),
+                        new KeyValuePair<string, string>("deviceId", uuid),
+                        new KeyValuePair<string, string>("gameSlug", gameSlug), 
+                        new KeyValuePair<string, string>("referrer", "")
 
-                urls.Add(new FormUrlEncodedContent(new[]
-                {
-                new KeyValuePair<string, string>("username", $"\"{username}\""),
-                new KeyValuePair<string, string>("question", $"\"{questions[i]}\""),
-                new KeyValuePair<string, string>("deviceId", $"\"{uuid[i]}\""),
-                new KeyValuePair<string, string>("gameSlug", ""),
-                new KeyValuePair<string, string>("referrer", "")
+                    });
+                
+            return formData;
 
-            }));
-            }
-
-
-
-            return null;
         }
     }
 }

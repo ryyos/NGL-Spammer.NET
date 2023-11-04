@@ -12,3 +12,6 @@ D:\playground\C#\NGL-Spammer.NET\obj\Debug\net6.0\refint\NGL-Spammer.NET.dll
 D:\playground\C#\NGL-Spammer.NET\obj\Debug\net6.0\NGL-Spammer.NET.pdb
 D:\playground\C#\NGL-Spammer.NET\obj\Debug\net6.0\NGL-Spammer.NET.genruntimeconfig.cache
 D:\playground\C#\NGL-Spammer.NET\obj\Debug\net6.0\ref\NGL-Spammer.NET.dll
+D:\playground\C#\NGL-Spammer.NET\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\playground\C#\NGL-Spammer.NET\obj\Debug\net6.0\NGL-Spammer.NET.csproj.AssemblyReference.cache
+D:\playground\C#\NGL-Spammer.NET\obj\Debug\net6.0\NGL-Spammer.NET.csproj.CopyComplete
